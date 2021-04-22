@@ -1,10 +1,10 @@
 ---
-title: atdocs
+title: locadocs
 mission: Simplifier l’accès aux documents publics
 owner: Ministère de la Culture
 incubator: culture
 phases:
-  - name: investigation
+  - name: construction
     start: 2020-04-01
 link:
 repository:
@@ -14,20 +14,34 @@ contact: ateliernumerique@culture.gouv.fr
 ---
 
 
-## Le contexte :
-Toute personne dispose d’un droit d’accès aux documents détenus par l’administration. Cependant, ce principe est régi par un corpus juridique complexe qui souffre de nombreuses exceptions et cas particuliers qui font de la recherche de l’usager un parcours semé d’embûches et (parfois) de cul de sac. 
+## Le contexte 
+Comment retrouver un jugement de divorce, un permis de construire ou encore un dossier scolaire ? Accéder à un document public (document administratif ou judiciaire) relève parfois du parcours du combattant pour les usagers.
 
-A défaut de pouvoir simplifier ce corpus à court terme, le Service interministériel des Archives de France (SIAF) a lancé en 2019 @docs. Cette application permet aux citoyens, mais aussi aux archivistes et autres agents publics, de connaître les règles d’accès (communication, reproduction, recours en cas de refus, textes applicables) aux typologies de documents les plus couramment demandées par les usagers.
+Rarement familiers de l’organisation des services publics et de la production administrative, les usagers s’adressent souvent au mauvais interlocuteur ou demandent l’accès au mauvais document. Par exemple, un usager qui souhaite accéder au permis de construire de sa maison peut être amené à s’adresser, selon la date du permis, à trois services différents, ce qui génère un nombre important de mauvaises orientations. 
 
-En 2020, le SIAF reprend le travail avec l’ambition de mieux intégrer le service rendu par @docs aux parcours des usagers. L'objet de cette phase d'investigation sera de cerner plus précisément besoins et points de frictions des usagers pour proposer une nouvelle version de l’outil.
+Ces difficultés sont autant de freins à l’exercice du droit d’accès aux documents administratifs et aux archives publiques. L’orientation des usagers  représente par ailleurs une charge de travail non négligeable pour les services publics d’archives, qui traitent près de 250 000 recherches par correspondance chaque année. 
 
-## Le problème à résoudre : 
-Comment pourrions aider les usagers à faire valoir leurs droits en simplifiant la recherche d’un document ou d’une information détenue par un service public ?
 
-## Le projet en direct
-Notre phase Investigation débute par une première série d’entretiens auprès des services publics d’archives et des guichets de service public de proximité pour :
-* Identifier les principaux cas d’usages liés à la recherche d'un document administratif ou judiciaire ou d’une information
-* Comprendre les points de frictions, blocages, problèmes rencontrés par les usagers dans cette recherche
-* Mieux identifier les attentes des usagers et les besoins d’accompagnement
+## Le problème 
+Comment pourrions-nous améliorer l'information et l’autonomie des usagers qui recherchent un document administratif ou judiciaire en facilitant l’identification du bon interlocuteur, et tout en allégeant la charge de travail de l’administration en matière d’orientation des usagers ?  
+
+## Notre piste de solution
+L'objectif de Loc@docs est de proposer un outil directement sur le parcours de l'usager, au plus près de l'endroit où il débute ses recherches. Nous souhaitons donc concevoir une application qui pourra être embedée facilement sur les sites des guichets des administrations (sites des collectivités territoriales, sites des administrations de l’Etat, sites des services d’archives).
+
+Côté frontend : Un applicatif front, intégré à des pages de sites institutionnels, qui guide l’usager dans sa recherche en lui apportant une information sur sa démarche, lui indique le service qui conserve le document recherché et lui permette de déposer auprès de ce service une demande claire et complète. 
+
+Côté backend : Une base de données co-construite avec les services locaux qui tienne compte des spécificités du terrain en matière d’organisation des services.
+
+## Notre stratégie à 6 mois
+A partir d’avril 2021, la phase de construction a pour objectif de tester une première version de l’outil sur deux typologies de documents (permis de construire et une autre typologie à définir) sur un terrain d’expérimentation local (ex. une métropole).
+
+## Mesure d'impact
+La problématique que nous traitons manque cruellement de données chiffrées. 
+Nous travaillons actuellement à définir des objectifs chiffrés autour de 3 indicateurs : 
+
+* Le % d’erreur d’orientation évitées 
+* La part d’audience visée pour les thématiques sélectionnées dans l’outil
+* Le nombre de services qui intègrent l’outil à leur site internet
+
 
 [Nous contacter](mailto:ateliernumerique@culture.gouv.fr)
